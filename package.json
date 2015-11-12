@@ -1,6 +1,6 @@
 {
   "name": "cloudformation-message-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses AWS CloudFormation notifications into JSON objects",
   "main": "index.js",
   "scripts": {

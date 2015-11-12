@@ -1,8 +1,7 @@
 module.exports = function (message) {
-  return message.replace(/\'/g, '').split('\n').map(function (l) {
-    return {
-      key: l.substr(0, l.indexOf('=')),
-      value: l.substr(l.indexOf('=') + 1)
-    };
-  });
+  return Object.assign.apply(Object, message.replace(/\'/g, '').split('\n').map(function (l) {
+    var t = {};
+    t[l.substr(0, l.indexOf('='))] = l.substr(l.indexOf('=') + 1);
+    return t;
+  }));
 };
