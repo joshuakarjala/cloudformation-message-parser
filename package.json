@@ -23,5 +23,8 @@
   "homepage": "https://github.com/joshuakarjala/cloudformation-message-parser#readme",
   "devDependencies": {
     "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1"
   }
 }
