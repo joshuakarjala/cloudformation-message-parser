@@ -1,0 +1,27 @@
+{
+  "name": "cloudformation-message-parser",
+  "version": "1.0.0",
+  "description": "Parses AWS CloudFormation notifications into JSON objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuakarjala/cloudformation-message-parser.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "parser"
+  ],
+  "author": "Joshua Karjala-Svendsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuakarjala/cloudformation-message-parser/issues"
+  },
+  "homepage": "https://github.com/joshuakarjala/cloudformation-message-parser#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
